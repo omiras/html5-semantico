@@ -5,6 +5,6 @@ Vaís a trabajar mucho con rutas absolutas y relativas, así que tened presente 
 
 Leed el fichero practica-html.pdf para más información
 
-Teneis que crear el contenido HTML necesario para que vuestra solución funcione como la siguiente [DEMO](https://github.com/omiras/html5-semantico).
+Teneis que crear el contenido HTML necesario para que vuestra solución funcione como la siguiente [DEMO](https://4geeks-omiras.github.io/html5-semantico-sol-jordi/)
 
 **Importante** : la sección de **formularios** tan solo debe mostrarse parecida al diseño esperado. No hace falta que el botón haga nada de momento.
