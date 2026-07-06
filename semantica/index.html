@@ -6,50 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semántica HTML5</title>
-    
-    <style>
-        main,
-        article,
-        section,
-        header,
-        footer {
-            border: 1px dashed green;
-        }
-
-        div {
-            border: 1px solid red;
-        }
-    </style>
 </head>
 
-<body>
-<h1>Bienvenidos al blog de Mari Carmen Noticias</h1>
+<body id="top">
+    <header>
+        <h1>Bienvenidos al blog de Mari Carmen Noticias</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Página principal</a></li>
+                <li><a href="../enlaces/index.html">Enlaces</a></li>
+                <li><a href="../img/index.html">Imágenes</a></li>
+                <li><a href="../media/index.html">Multimedia</a></li>
+                <li><a href="../tabla/index.html">Tablas</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<h1>Blog de Desarrollo Web</h1>
+    <main>
+        <h2>Blog de Desarrollo Web</h2>
 
-<div>
-Introducción a HTML
-Artículo #1
-Publicado el 15 de septiembre de 2026 a las 09:30.
+        <article>
+            <h3>Introducción a HTML</h3>
+            <p><strong>Artículo #1</strong></p>
+            <p>Publicado el <time datetime="2026-09-15T09:30">15 de septiembre de 2026 a las 09:30</time>.</p>
+            <p>En este artículo aprenderás qué es HTML, cómo se estructura una página web y cuáles son las etiquetas más utilizadas para crear contenido.</p>
+        </article>
 
-En este artículo aprenderás qué es HTML, cómo se estructura una página web y cuáles son las etiquetas más utilizadas para crear contenido.
-</div>
+        <article>
+            <h3>Primeros pasos con CSS</h3>
+            <p><strong>Artículo #2</strong></p>
+            <p>Publicado el <time datetime="2026-09-17T10:15">17 de septiembre de 2026 a las 10:15</time>.</p>
+            <p>Descubre cómo aplicar <mark>colores</mark>, tipografías, márgenes y otros estilos para mejorar el aspecto visual de una página web.</p>
+        </article>
 
-<div>
-Primeros pasos con CSS
-Artículo #2
-Publicado el 17 de septiembre de 2026 a las 10:15.
+        <article>
+            <h3>JavaScript: tu primer programa</h3>
+            <p><strong>Artículo #3</strong></p>
+            <p>Publicado el <time datetime="2026-09-20T11:00">20 de septiembre de 2026 a las 11:00</time>.</p>
+            <p>Aprende a escribir tus primeras instrucciones en JavaScript para interactuar con el usuario y añadir comportamiento a una página web.</p>
+        </article>
+    </main>
 
-Descubre cómo aplicar colores, tipografías, márgenes y otros estilos para mejorar el aspecto visual de una página web.
-</div>
-
-<div>
-JavaScript: tu primer programa
-Artículo #3
-Publicado el 20 de septiembre de 2026 a las 11:00.
-
-Aprende a escribir tus primeras instrucciones en JavaScript para interactuar con el usuario y añadir comportamiento a una página web.
-</div>
+    <footer>
+        <p>Blog de Mari Carmen Noticias</p>
+        <a href="#top">↑ Subir al principio</a>
+    </footer>
 </body>
 
 </html>
