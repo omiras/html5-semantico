@@ -6,7 +6,7 @@ En este ejercicio vamos a practicar la semántica y estructura del documento HTM
 
 Fíjate que tienes que crear diversos ficheros "index.html" dentro de cada una de las carpetas. Algunos, ya estan creados.
 
-Teneis que crear el contenido HTML necesario para que vuestra solución funcione como la siguiente [DEMO]()
+Teneis que crear el contenido HTML necesario para que vuestra solución funcione como la siguiente [DEMO](https://omiras.github.io/html5-semantico/)
 
 Abre con Live Server siempre el index.html que se encuentra al lado del README.md.
 
