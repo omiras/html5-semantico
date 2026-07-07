@@ -19,6 +19,9 @@ Tiene que ser posible navegar **entre todas las secciones de esta Web**. Cuando 
 Vaís a trabajar mucho con rutas absolutas y relativas, así que tened presente este información: https://lenguajehtml.com/html/texto/enlaces-o-hipervinculos/#rutas-relativas-o-absolutas
 
 Si esta parte resulta difícil al principio, podéis implementar las siguientes y dejar esta sección para más adelante.
+Al final, debe quedarte una estructura de carpetas y ficheros parecida a la que se muestra:
+
+<img src="https://oscarm.tinytake.com/media/1869109?filename=1783404337650_ejercicioSemnaticaMenu.png&sub_type=thumbnail_preview&type=attachment&width=477&height=584" title="Powered by TinyTake Screen Capture"/><br>
 
 ## Carpeta Enlaces
 
@@ -33,7 +36,7 @@ Si esta parte resulta difícil al principio, podéis implementar las siguientes 
 
 ## Carèta Media
 
-En HTML5 también podemos incluir imágenes y vídeo. El vídeo tenéis que enlazar esta URL: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4 , mientras que el fichero de audio es un fichero MP3 que se encuentra en el mismo proyecto.
+En HTML5 también podemos incluir imágenes y vídeo. El vídeo tenéis que enlazar esta URL: https://www.pexels.com/download/video/20409688/ , mientras que el fichero de audio es un fichero MP3 que se encuentra en el mismo proyecto. Buscad la forma adecuada de incluir este contenido multimedia usando tags HTML.
 
 ## Carpeta Semántica
 
