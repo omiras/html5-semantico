@@ -12,7 +12,12 @@
             <ul>
                 <li><a href="../index.html">Página principal</a></li>
                 <li><a href="../enlaces/index.html">Enlaces</a></li>
-                <li><a href="../media/index.html">Multimedia</a></li>
+                <li>Multimedia
+                    <ul>
+                        <li><a href="../media/audio/index.html">Audio</a></li>
+                        <li><a href="../media/video/index.html">Video</a></li>
+                    </ul>
+                </li>
                 <li><a href="../semantica/index.html">HTML5 semántico</a></li>
                 <li><a href="../tabla/index.html">Tablas</a></li>
             </ul>
@@ -22,18 +27,24 @@
     <main>
         <section>
             <h2>Galería de imágenes</h2>
-            <img src="perrito.jpg" alt="Perrito" />
-            <img src="https://picsum.photos/600/400?random=1" alt="Imagen aleatoria de Picsum" />
+            <h3>Perrito</h3>
+            <p>Soy un perro y mido 200px</p>
+            <img width="200" src="perrito.jpg" alt="Perrito" />
+            <h3>Soy una imagne cambiante</h3>
+            <p>Yo soy también un IMG de 200 píxeles. Pero cada vez que recargas la página...¡cambio!. Investiga la Web <a href="">Picsum Photos para averiguar cómo se hace esto</a> </p>
+            <img src="https://picsum.photos/200?random=1" alt="Imagen aleatoria de Picsum" />
+            <h3>Elefante</h3>
+            <p>Pues yo soy un elefante. Pero la cosa es que uso el tag semántico <a href="https://www.w3schools.com/tags/tag_figure.asp">figure</a>. ¡Fíjate que hasta puedo poner una descripción de la imagen en la parte inferior de la foto! </p>
             <figure>
                 <img src="elephant-660-480.jpg" alt="Elefante" />
-                <figcaption>Imagen semántica con figure</figcaption>
+                <figcaption>Elefante feliz en su hábitat natural</figcaption>
             </figure>
         </section>
     </main>
 
-    <footer>
-        <p>Galería de imágenes</p>
-        <a href="#top">↑ Subir al principio</a>
+      <footer>
+        <img src="https://www.retema.es/sites/default/files/2023-08/femxa_generico.jpg" alt="Femxa" width="80">
+        <a href="#top"><img src="../img/gotop.png" alt="Subir al principio" width="40" height="40"></a>
     </footer>
 </body>
 </html>

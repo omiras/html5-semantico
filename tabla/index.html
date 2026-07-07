@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablas</title>
 </head>
+
 <body id="top">
     <header>
         <h1>Tablas</h1>
@@ -13,7 +15,12 @@
                 <li><a href="../index.html">Página principal</a></li>
                 <li><a href="../enlaces/index.html">Enlaces</a></li>
                 <li><a href="../img/index.html">Imágenes</a></li>
-                <li><a href="../media/index.html">Multimedia</a></li>
+                <li>Multimedia
+                    <ul>
+                        <li><a href="../media/audio/index.html">Audio</a></li>
+                        <li><a href="../media/video/index.html">Video</a></li>
+                    </ul>
+                </li>
                 <li><a href="../semantica/index.html">HTML5 semántico</a></li>
             </ul>
         </nav>
@@ -22,39 +29,55 @@
     <main>
         <section>
             <h2>Tabla de ejemplo</h2>
-            <table>
-                <caption>Datos del equipo</caption>
+            <table border="1">
+                <caption>Specification values: <b>Steel</b>, <b>Castings</b>,
+                    Ann. A.S.T.M. A27-16, Class B;* P max. 0.06; S max. 0.05.</caption>
                 <thead>
                     <tr>
-                        <th>Nombre</th>
-                        <th>Edad</th>
-                        <th>Ciudad</th>
+                        <th rowspan="2">Grade.</th>
+                        <th rowspan="2">Yield Point.</th>
+                        <th colspan="2">Ultimate tensile strength</th>
+                        <th rowspan="2">Per cent elong. 50.8&nbsp;mm or&nbsp;2&nbsp;in.</th>
+                        <th rowspan="2">Per cent reduct. area.</th>
+                    </tr>
+                    <tr>
+                        <th>kg/mm<sup>2</sup></th>
+                        <th>lb/in<sup>2</sup></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Ana</td>
+                        <td>Hard</td>
+                        <td>0.45 ultimate</td>
+                        <td>56.2</td>
+                        <td>80,000</td>
+                        <td>15</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Medium</td>
+                        <td>0.45 ultimate</td>
+                        <td>49.2</td>
+                        <td>70,000</td>
+                        <td>18</td>
                         <td>25</td>
-                        <td>Madrid</td>
                     </tr>
                     <tr>
-                        <td>Leo</td>
+                        <td>Soft</td>
+                        <td>0.45 ultimate</td>
+                        <td>42.2</td>
+                        <td>60,000</td>
+                        <td>22</td>
                         <td>30</td>
-                        <td>Barcelona</td>
-                    </tr>
-                    <tr>
-                        <td>Marta</td>
-                        <td>28</td>
-                        <td>Sevilla</td>
                     </tr>
                 </tbody>
             </table>
         </section>
     </main>
-
     <footer>
-        <p>Tabla en HTML5</p>
-        <a href="#top">↑ Subir al principio</a>
+        <img src="https://www.retema.es/sites/default/files/2023-08/femxa_generico.jpg" alt="Femxa" width="80">
+        <a href="#top"><img src="../img/gotop.png" alt="Subir al principio" width="40" height="40"></a>
     </footer>
 </body>
+
 </html>
