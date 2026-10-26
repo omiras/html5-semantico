@@ -1,62 +1,133 @@
-# HTML5 Estructura y semántica
+# HTML: enlaces, imágenes y contenido multimedia
 
-En este ejercicio vamos a practicar la semántica y estructura del documento HTML5.
+Construiremos una pequeña web para practicar enlaces, rutas, imágenes, audio, vídeo y un formulario de contacto. No utilizaremos todavía contenedores como `section`, `article` o `nav`, ni CSS.
 
+## Demo
 
+**Mira esta demo** — enlace pendiente de añadir por el docente.
 
-Fíjate que tienes que crear diversos ficheros "index.html" dentro de cada una de las carpetas. Algunos, ya estan creados.
+## Antes de empezar
 
-Teneis que crear el contenido HTML necesario para que vuestra solución funcione como la siguiente [DEMO]()
+Abre esta carpeta completa en Visual Studio Code. Instala **Live Server**, de Ritwick Dey, si no lo tienes. Abre con Live Server el `index.html` situado junto a este README.
 
-Abre con Live Server siempre el index.html que se encuentra al lado del README.md.
+Esta rama `solution` contiene la solución de las cinco páginas. La rama `main` conserva los archivos iniciales para el alumnado. Abre la portada con Live Server y prueba todos los enlaces.
 
-## Menu de navegación
+El vídeo local incluido es una muestra CC0 de los ejemplos de MDN (flores), utilizada como alternativa para que la solución funcione sin descargar otro archivo. Puedes sustituirlo por el vídeo propuesto de Pexels manteniendo el nombre `media/video-files/video.mp4`.
 
-Esta es la parte más complicada, y común en todas las páginas.
+Las prácticas opcionales del final no son necesarias para completar la solución básica.
 
-Tiene que ser posible navegar **entre todas las secciones de esta Web**. Cuando haces click en "Enlaces" , te lleva a enlaces/index.html. Y desde esa página , puedes navegar a cualquier otra página de la Web. Como comentabamos al principio, es necesario usar adecuadamente las rutas relativas para acceder a un documento u otro.
+## Orden de trabajo
 
-Vaís a trabajar mucho con rutas absolutas y relativas, así que tened presente este información: https://lenguajehtml.com/html/texto/enlaces-o-hipervinculos/#rutas-relativas-o-absolutas
+| Paso | Archivo | Objetivo |
+| --- | --- | --- |
+| 1 | `enlaces/index.html` | Enlaces externos |
+| 2 | `imagenes/index.html` | Imagen local y texto alternativo |
+| 3 | Portada y páginas anteriores | Navegación progresiva |
+| 4 | `media/index.html` | Audio y vídeo |
+| 5 | `contacto/index.html` | Formulario de contacto sencillo |
 
-Si esta parte resulta difícil al principio, podéis implementar las siguientes y dejar esta sección para más adelante.
-Al final, debe quedarte una estructura de carpetas y ficheros parecida a la que se muestra:
+Primero completa el contenido de Enlaces e Imágenes. Después construiremos el menú.
 
-<img src="https://oscarm.tinytake.com/media/1869109?filename=1783404337650_ejercicioSemnaticaMenu.png&sub_type=thumbnail_preview&type=attachment&width=477&height=584" title="Powered by TinyTake Screen Capture"/><br>
+## 1. Enlaces externos
 
-## Carpeta Enlaces
+En `enlaces/index.html`, crea dos enlaces a `https://www.google.com/`:
 
-- Tenemos que crear dos enlaces **externos**. El primer enlace, te manda a Google en la misma pestaña. El segundo enlace, abre Google en una pestaña diferente
+- Uno se abre en la misma pestaña.
+- Otro se abre en una pestaña nueva. Añade también `rel="noopener noreferrer"`.
+- Sus textos deben permitir distinguir qué hace cada enlace.
 
-## Carpeta Img
+**Pistas:** investiga `a`, `href` y `target`. El texto visible se escribe entre la apertura y el cierre del enlace.
 
-- Aquí hay que crear diferentes tags o etiquetas para mostrar imágenes. 
-  - La primera imagen es un tag IMG normal, que tiene 200 píxeles de ancho.
-  - La segunda imagen también es un tag IMG normal, PERO tenéis que investigar cómo usar adecuadamente la página [Picsum Photos](https://picsum.photos/) para que, cada vez que recargas la página, te da una foto **diferente**. 
-  - La tercera imagen es un tag SEMÁNTICO que sirve también para crear imágenes: el tag [figure](https://lenguajehtml.com/html/agrupacion/etiqueta-html-figure/)
+**Resultado esperado:** título y dos enlaces funcionales con comportamientos distintos. Comprueba ambos.
 
-## Carèta Media
+Ayuda: [Crear enlaces (MDN)](https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/Creating_links).
 
-En HTML5 también podemos incluir imágenes y vídeo. El vídeo tenéis que enlazar esta URL: https://www.pexels.com/download/video/20409688/ , mientras que el fichero de audio es un fichero MP3 que se encuentra en el mismo proyecto. Buscad la forma adecuada de incluir este contenido multimedia usando tags HTML.
+## 2. Imágenes locales
 
-## Carpeta Semántica
+En `imagenes/index.html`:
 
-- Sustituve los tags DIV por tags SEMÁNTICOS (H2, article, etc.). 
-- Para las fechas que se muestra, puede usar la etiqueta semántica [time](https://lenguajehtml.com/html/tecnicas/etiqueta-html-time/#la-etiqueta-time) , y para resaltar en amarillo, puedes usar la etiqueta [mark](https://lenguajehtml.com/html/texto/etiqueta-html-mark/#la-etiqueta-mark)
-- BONUS: ¿Cómo usuararías el tag "time" para el párrafo del eclipse solar en España? (El último párrafo)
-- Comparad vuestra semántica con esta [solución](https://pastebin.com/raw/VPJvjsVn)
+- Inserta `perrito.jpg`, de la carpeta `img`.
+- Establece un ancho de **200 píxeles**, conservando sus proporciones.
+- Añade un texto alternativo descriptivo y un párrafo debajo de la fotografía.
 
-## Carpeta Tabla
+**Pistas:** utiliza `img`, `src`, `alt` y `width`. `img` no tiene etiqueta de cierre. Desde `imagenes` necesitas subir un nivel para acceder a la carpeta hermana `img`.
 
-Tenéis que crear un [tabla en HTML5](https://lenguajehtml.com/html/tablas/etiqueta-html-table/) siguiente este diseño:
+**Resultado esperado:** título, imagen visible de 200 píxeles de ancho y párrafo. Si no aparece, revisa la ruta, el nombre y la extensión.
 
-<img src="https://oscarm.tinytake.com/media/18690a7?filename=1783402080437_tablaChunga.png&sub_type=thumbnail_preview&type=attachment&width=745&height=178" title="Powered by TinyTake Screen Capture"/><br>
+Ayuda: [Imágenes en HTML (MDN)](https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/HTML_images).
 
-- Es una tabla realmente compleja. Así que tras leer un poco el funcionamiento de las tablas HTML, podéis intentar generarla con IA
-- Otra opción es inspeccionar el código de la fuente de la solución y copiarla. ¿Recordáis cómo hacerlo?
+## 3. Navegación por etapas
 
+Utiliza una lista de enlaces. No necesitas envolverla en un `div` ni en un `nav`.
 
+1. **Portada → Enlaces:** convierte el texto Enlaces del menú principal en un enlace a `enlaces/index.html`.
+2. **Enlaces → Portada:** añade en Enlaces un enlace Inicio que regrese al documento principal.
+3. **Entre carpetas:** incorpora Imágenes. Desde Enlaces debes poder ir a Imágenes y desde Imágenes regresar a Inicio o ir a Enlaces.
+4. **Multimedia:** después de trabajar Multimedia, incorpora esa página al menú.
+5. **Contacto:** incorpora también Contacto, con su formulario. Las cinco páginas deben permitir llegar a las otras cuatro.
 
-## OTROS BONUS
+Puedes copiar la lista, pero **adapta las rutas a la ubicación de cada documento**.
 
-- Añade la marca de "femXa" en el _footer_ de todas las paginas.
-- Finalmente, fíjate que al final de cada página hay una flecha naranja que, al hacer click en ella, te "sube" al princpio de la documento. ¿Cómo se hace?
+**Pistas:** `./` parte de la carpeta actual; `../` sube un nivel. Después puedes indicar otra carpeta y archivo. Una URL completa como `https://www.google.com/` lleva a un sitio externo.
+
+Usa rutas relativas. Evita empezar por `/`: apunta a la raíz del servidor de Live Server, que puede no coincidir con esta carpeta.
+
+**Resultado esperado:** puedes recorrer las cinco páginas sin usar el botón Atrás ni encontrar archivos inexistentes.
+
+Ayuda: [Rutas relativas y absolutas](https://lenguajehtml.com/html/texto/enlaces-o-hipervinculos/#rutas-relativas-o-absolutas).
+
+## 4. Audio y vídeo
+
+En `media/index.html`, crea dos apartados con `h2`: Audio y Vídeo.
+
+### Audio
+
+Inserta `audio-files/meowing-cat-sound.mp3`, que ya está incluido. Investiga `audio` y muestra los controles con `controls`. Comprueba reproducción y pausa.
+
+### Vídeo
+
+Descarga el [vídeo de Pexels](https://www.pexels.com/download/video/20409688/), o utiliza el MP4 que facilite el profesor si la descarga no está disponible. Guárdalo como `video.mp4` dentro de `media/video-files/`. **El MP4 no está incluido en la plantilla de `main`; esta rama `solution` incluye un vídeo de muestra.**
+
+Insértalo con `video`, muestra sus controles y establece un ancho de 400 píxeles. Comprueba que se reproduce. No añadas reproducción automática.
+
+**Pistas:** ambos reproductores admiten `src` y `controls`. Las rutas parten de `media/index.html`. Trabajamos con archivos multimedia, no con una dirección de YouTube ni con un `iframe`.
+
+**Resultado esperado:** reproductores de audio y vídeo funcionales con controles. Completa también la navegación hacia esta página y desde ella.
+
+Ayuda: [Audio en HTML](https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/audio) y [Vídeo en HTML](https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/video).
+
+## 5. Contacto
+
+Añade **Contacto** a la lista del menú de todas las páginas. Su destino desde la portada es `contacto/index.html`; desde Enlaces, Imágenes y Multimedia es `../contacto/index.html`.
+
+En `contacto/index.html` encontrarás un formulario sencillo con solo tres campos:
+
+- **Asunto:** texto de una línea, con `input type="text"`.
+- **Email:** dirección de correo, con `input type="email"`.
+- **Comentarios:** texto de varias líneas, con `textarea`.
+
+Cada campo tiene su `label`, `id` y `name`. El botón **Enviar** permite comprobar los campos obligatorios y el formato del email. Es una práctica de HTML: todavía no hay un servicio que reciba o envíe los mensajes.
+
+Completa la lista de navegación de Contacto para volver a Inicio o visitar Enlaces, Imágenes y Multimedia. Usa `../` para salir de la carpeta Contacto.
+
+**Resultado esperado:** formulario con los tres campos y el botón Enviar, sin CSS ni campos adicionales.
+
+## Comprueba tu trabajo
+
+- Cada página tiene un título de pestaña adecuado, un `h1` y el idioma `es`.
+- Todos los enlaces del menú funcionan desde todas las páginas.
+- La imagen se muestra y tiene un `alt` descriptivo.
+- El audio y el vídeo se reproducen y tienen controles.
+- Contacto aparece en todos los menús y muestra Asunto, Email y Comentarios.
+- El código está indentado y correctamente anidado.
+- Comprueba cada documento completo en el [validador W3C](https://validator.w3.org/#validate_by_input). Corrige los errores y consulta las advertencias que no entiendas.
+
+## Práctica opcional
+
+### Imagen aleatoria
+
+Añade una segunda imagen en Imágenes usando [Picsum Photos](https://picsum.photos/). Investiga cómo solicitar una fotografía aleatoria de un tamaño concreto. Necesita conexión; la caché puede hacer que una recarga repita la imagen.
+
+### Volver al principio
+
+En una página con contenido suficiente para desplazarte, añade al final un enlace al encabezado inicial mediante un `id`. Puedes usar texto o `img/gotop.png`, adaptando su ruta.
