@@ -30,10 +30,10 @@ Primero completa el contenido de Enlaces e Imágenes. Después construiremos el 
 
 ## 1. Enlaces externos
 
-En `enlaces/index.html`, crea dos enlaces a `https://www.google.com/`:
+En `enlaces/index.html`, crea estos dos enlaces:
 
-- Uno se abre en la misma pestaña.
-- Otro se abre en una pestaña nueva. Añade también `rel="noopener noreferrer"`.
+- Un enlace a `https://www.google.com/` que se abre en la misma pestaña.
+- Un enlace a `https://www.20minutos.es/` que se abre en una pestaña nueva mediante `target="_blank"`.
 - Sus textos deben permitir distinguir qué hace cada enlace.
 
 **Pistas:** investiga `a`, `href` y `target`. El texto visible se escribe entre la apertura y el cierre del enlace.
@@ -62,7 +62,13 @@ En la misma página de Imágenes, añade un apartado con un `h2` y una fotograf�
 
 ### Imagen con pie de foto
 
-Añade otro apartado en Imágenes con una imagen local dentro de `figure` y un pie de foto en `figcaption`. Puedes reutilizar `img/perrito.jpg`. La imagen debe tener su propio `alt`: el pie de foto visible no lo sustituye. Estos dos apartados son parte obligatoria del ejercicio.
+Añade otro apartado en Imágenes con una imagen local dentro de `figure` y un pie de foto en `figcaption`. Utiliza `img/gato.jpg`, incluida en la carpeta, con un ancho de 200 píxeles.
+
+- **Texto alternativo sugerido:** «Gato atigrado de pecho blanco sentado al aire libre».
+- **Pie de foto:** «Un joven gato atigrado fotografiado en Portugal».
+- **Autor y licencia:** Alvesgaspar, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Fuente: Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cat_November_2010-1a.jpg). Fotografía sin modificar. Incluye este crédito con sus enlaces en el pie de foto.
+
+ La imagen debe tener su propio `alt`: el pie de foto visible no lo sustituye. Estos dos apartados son parte obligatoria del ejercicio.
 
 **Resultado esperado de Imágenes:** fotografía local de 200 píxeles con su párrafo, fotografía de Picsum y una imagen agrupada con su pie de foto.
 
