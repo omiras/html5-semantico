@@ -1,6 +1,6 @@
 # HTML: enlaces, imágenes y contenido multimedia
 
-Construiremos una pequeña web para practicar enlaces, rutas, imágenes, audio, vídeo y un formulario de contacto. No utilizaremos todavía contenedores como `section`, `article` o `nav`, ni CSS.
+Construiremos una pequeña web para practicar enlaces, rutas, imágenes, audio, vídeo y un formulario de contacto.
 
 ## Demo
 
