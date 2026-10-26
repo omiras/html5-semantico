@@ -14,7 +14,7 @@ Esta rama `solution` contiene la solución de las cinco páginas. La rama `main`
 
 El vídeo local incluido es una muestra CC0 de los ejemplos de MDN (flores), utilizada como alternativa para que la solución funcione sin descargar otro archivo. Puedes sustituirlo por el vídeo propuesto de Pexels manteniendo el nombre `media/video-files/video.mp4`.
 
-Las prácticas opcionales del final no son necesarias para completar la solución básica.
+Picsum y la imagen con pie de foto forman parte de la solución de Imágenes.
 
 ## Orden de trabajo
 
@@ -55,6 +55,16 @@ En `imagenes/index.html`:
 **Resultado esperado:** título, imagen visible de 200 píxeles de ancho y párrafo. Si no aparece, revisa la ruta, el nombre y la extensión.
 
 Ayuda: [Imágenes en HTML (MDN)](https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/HTML_images).
+
+### Imagen de Picsum
+
+En la misma página de Imágenes, añade un apartado con un `h2` y una fotografía de [Picsum Photos](https://picsum.photos/). Puedes usar `https://picsum.photos/300/200` para solicitar una imagen de 300 por 200 píxeles. Añade un texto alternativo indicando que es una fotografía aleatoria. Necesita Internet; la caché puede hacer que una recarga repita la foto.
+
+### Imagen con pie de foto
+
+Añade otro apartado en Imágenes con una imagen local dentro de `figure` y un pie de foto en `figcaption`. Puedes reutilizar `img/perrito.jpg`. La imagen debe tener su propio `alt`: el pie de foto visible no lo sustituye. Estos dos apartados son parte obligatoria del ejercicio.
+
+**Resultado esperado de Imágenes:** fotografía local de 200 píxeles con su párrafo, fotografía de Picsum y una imagen agrupada con su pie de foto.
 
 ## 3. Navegación por etapas
 
@@ -116,17 +126,13 @@ Completa la lista de navegación de Contacto para volver a Inicio o visitar Enla
 
 - Cada página tiene un título de pestaña adecuado, un `h1` y el idioma `es`.
 - Todos los enlaces del menú funcionan desde todas las páginas.
-- La imagen se muestra y tiene un `alt` descriptivo.
+- Las imágenes locales tienen un `alt` descriptivo, Picsum carga y hay una imagen con `figure` y `figcaption`.
 - El audio y el vídeo se reproducen y tienen controles.
 - Contacto aparece en todos los menús y muestra Asunto, Email y Comentarios.
 - El código está indentado y correctamente anidado.
 - Comprueba cada documento completo en el [validador W3C](https://validator.w3.org/#validate_by_input). Corrige los errores y consulta las advertencias que no entiendas.
 
 ## Práctica opcional
-
-### Imagen aleatoria
-
-Añade una segunda imagen en Imágenes usando [Picsum Photos](https://picsum.photos/). Investiga cómo solicitar una fotografía aleatoria de un tamaño concreto. Necesita conexión; la caché puede hacer que una recarga repita la imagen.
 
 ### Volver al principio
 
