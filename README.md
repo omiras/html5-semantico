@@ -137,9 +137,3 @@ Completa la lista de navegación de Contacto para volver a Inicio o visitar Enla
 - Contacto aparece en todos los menús y muestra Asunto, Email y Comentarios.
 - El código está indentado y correctamente anidado.
 - Comprueba cada documento completo en el [validador W3C](https://validator.w3.org/#validate_by_input). Corrige los errores y consulta las advertencias que no entiendas.
-
-## Práctica opcional
-
-### Volver al principio
-
-En una página con contenido suficiente para desplazarte, añade al final un enlace al encabezado inicial mediante un `id`. Puedes usar texto o `img/gotop.png`, adaptando su ruta.
