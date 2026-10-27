@@ -4,7 +4,7 @@ Construiremos una pequeña web para practicar enlaces, rutas, imágenes, audio, 
 
 ## Demo
 
-**Mira esta demo** — enlace pendiente de añadir por el docente.
+[Mira esta demo antes](https://omiras.github.io/html5-semantico/)
 
 ## Antes de empezar
 
