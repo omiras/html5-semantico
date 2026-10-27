@@ -62,7 +62,6 @@ Añade otro apartado en Imágenes con una imagen local dentro de `figure` y un p
 
 - **Texto alternativo sugerido:** «Gato atigrado de pecho blanco sentado al aire libre».
 - **Pie de foto:** «Un joven gato atigrado fotografiado en Portugal».
-- **Autor y licencia:** Alvesgaspar, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Fuente: Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cat_November_2010-1a.jpg). Fotografía sin modificar. Incluye este crédito con sus enlaces en el pie de foto.
 
  La imagen debe tener su propio `alt`: el pie de foto visible no lo sustituye. Estos dos apartados son parte obligatoria del ejercicio.
 
