@@ -69,8 +69,6 @@ Añade otro apartado en Imágenes con una imagen local dentro de `figure` y un p
 
 ## 3. Navegación por etapas
 
-Utiliza una lista de enlaces. No necesitas envolverla en un `div` ni en un `nav`.
-
 1. **Portada → Enlaces:** convierte el texto Enlaces del menú principal en un enlace a `enlaces/index.html`.
 2. **Enlaces → Portada:** añade en Enlaces un enlace Inicio que regrese al documento principal.
 3. **Entre carpetas:** incorpora Imágenes. Desde Enlaces debes poder ir a Imágenes y desde Imágenes regresar a Inicio o ir a Enlaces.
