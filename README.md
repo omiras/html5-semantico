@@ -1,10 +1,11 @@
 # HTML: enlaces, imágenes y contenido multimedia
 
 Construiremos una pequeña web para practicar enlaces, rutas, imágenes, audio, vídeo y un formulario de contacto.
+Dispones del diseño esperado en un fichero PDF.
 
 ## Demo
 
-[Mira esta demo antes](https://omiras.github.io/html5-semantico/)
+[Mira esta demo antes](https://omiras.github.io/html5-consolidacion/)
 
 ## Antes de empezar
 
