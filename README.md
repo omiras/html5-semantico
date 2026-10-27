@@ -1,17 +1,20 @@
 # HTML: enlaces, imágenes y contenido multimedia
 
 Construiremos una pequeña web para practicar enlaces, rutas, imágenes, audio, vídeo y un formulario de contacto.
-Dispones del diseño esperado en un fichero PDF.
 
 ## Demo
 
-[Mira esta demo antes](https://omiras.github.io/html5-consolidacion/)
+**Mira esta demo** — enlace pendiente de añadir por el docente.
 
 ## Antes de empezar
 
 Abre esta carpeta completa en Visual Studio Code. Instala **Live Server**, de Ritwick Dey, si no lo tienes. Abre con Live Server el `index.html` situado junto a este README.
 
-Los archivos iniciales contienen comentarios con tareas: **debes completarlos, no son soluciones**. Guarda los cambios y comprueba el resultado en el navegador.
+Esta rama `solution` contiene la solución de las cinco páginas. La rama `main` conserva los archivos iniciales para el alumnado. Abre la portada con Live Server y prueba todos los enlaces.
+
+El vídeo local incluido es una muestra CC0 de los ejemplos de MDN (flores), utilizada como alternativa para que la solución funcione sin descargar otro archivo. Puedes sustituirlo por el vídeo propuesto de Pexels manteniendo el nombre `media/video-files/video.mp4`.
+
+Picsum y la imagen con pie de foto forman parte de la solución de Imágenes.
 
 ## Orden de trabajo
 
@@ -63,12 +66,15 @@ Añade otro apartado en Imágenes con una imagen local dentro de `figure` y un p
 
 - **Texto alternativo sugerido:** «Gato atigrado de pecho blanco sentado al aire libre».
 - **Pie de foto:** «Un joven gato atigrado fotografiado en Portugal».
+- **Autor y licencia:** Alvesgaspar, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). [Fuente: Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cat_November_2010-1a.jpg). Fotografía sin modificar. Incluye este crédito con sus enlaces en el pie de foto.
 
  La imagen debe tener su propio `alt`: el pie de foto visible no lo sustituye. Estos dos apartados son parte obligatoria del ejercicio.
 
 **Resultado esperado de Imágenes:** fotografía local de 200 píxeles con su párrafo, fotografía de Picsum y una imagen agrupada con su pie de foto.
 
 ## 3. Navegación por etapas
+
+Utiliza una lista de enlaces. No necesitas envolverla en un `div` ni en un `nav`.
 
 1. **Portada → Enlaces:** convierte el texto Enlaces del menú principal en un enlace a `enlaces/index.html`.
 2. **Enlaces → Portada:** añade en Enlaces un enlace Inicio que regrese al documento principal.
@@ -96,11 +102,11 @@ Inserta `audio-files/meowing-cat-sound.mp3`, que ya está incluido. Investiga `a
 
 ### Vídeo
 
-Descarga el [vídeo de Pexels](https://www.pexels.com/download/video/20409688/), o utiliza el MP4 que facilite el profesor si la descarga no está disponible. Guárdalo como `video.mp4` dentro de `media/video-files/`. **El MP4 no está incluido inicialmente.**
+Fíjate en el vídeo dentro de `media/video-files/`. 
 
-Insértalo con `video`, muestra sus controles y establece un ancho de 400 píxeles. Comprueba que se reproduce. No añadas reproducción automática.
+Insértalo con la etiqueta `video`, muestra sus controles y establece un ancho de 400 píxeles. Comprueba que se reproduce. No añadas reproducción automática.
 
-**Pistas:** ambos reproductores admiten `src` y `controls`. Las rutas parten de `media/index.html`. Trabajamos con archivos multimedia, no con una dirección de YouTube ni con un `iframe`.
+**Pistas:** ambos reproductores admiten `src` y `controls`. Las rutas parten de `media/index.html`. 
 
 **Resultado esperado:** reproductores de audio y vídeo funcionales con controles. Completa también la navegación hacia esta página y desde ella.
 
