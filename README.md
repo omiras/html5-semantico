@@ -102,11 +102,11 @@ Inserta `audio-files/meowing-cat-sound.mp3`, que ya está incluido. Investiga `a
 
 ### Vídeo
 
-Descarga el [vídeo de Pexels](https://www.pexels.com/download/video/20409688/), o utiliza el MP4 que facilite el profesor si la descarga no está disponible. Guárdalo como `video.mp4` dentro de `media/video-files/`. **El MP4 no está incluido en la plantilla de `main`; esta rama `solution` incluye un vídeo de muestra.**
+Fíjate en el vídeo dentro de `media/video-files/`. 
 
-Insértalo con `video`, muestra sus controles y establece un ancho de 400 píxeles. Comprueba que se reproduce. No añadas reproducción automática.
+Insértalo con la etiqueta `video`, muestra sus controles y establece un ancho de 400 píxeles. Comprueba que se reproduce. No añadas reproducción automática.
 
-**Pistas:** ambos reproductores admiten `src` y `controls`. Las rutas parten de `media/index.html`. Trabajamos con archivos multimedia, no con una dirección de YouTube ni con un `iframe`.
+**Pistas:** ambos reproductores admiten `src` y `controls`. Las rutas parten de `media/index.html`. 
 
 **Resultado esperado:** reproductores de audio y vídeo funcionales con controles. Completa también la navegación hacia esta página y desde ella.
 
