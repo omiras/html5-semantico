@@ -10,13 +10,11 @@ Construiremos una pequeña web para practicar enlaces, rutas, imágenes, audio, 
 
 Abre esta carpeta completa en Visual Studio Code. Instala **Live Server**, de Ritwick Dey, si no lo tienes. Abre con Live Server el `index.html` situado junto a este README.
 
-Esta rama `solution` contiene la solución de las cinco páginas. La rama `main` conserva los archivos iniciales para el alumnado. Abre la portada con Live Server y prueba todos los enlaces.
 
 El vídeo local incluido es una muestra CC0 de los ejemplos de MDN (flores), utilizada como alternativa para que la solución funcione sin descargar otro archivo. Puedes sustituirlo por el vídeo propuesto de Pexels manteniendo el nombre `media/video-files/video.mp4`.
 
-Picsum y la imagen con pie de foto forman parte de la solución de Imágenes.
 
-## Orden de trabajo
+## Orden de trabajo sugerido
 
 | Paso | Archivo | Objetivo |
 | --- | --- | --- |
@@ -74,7 +72,7 @@ Añade otro apartado en Imágenes con una imagen local dentro de `figure` y un p
 
 ## 3. Navegación por etapas
 
-Utiliza una lista de enlaces. No necesitas envolverla en un `div` ni en un `nav`.
+Utiliza una lista de enlaces. 
 
 1. **Portada → Enlaces:** convierte el texto Enlaces del menú principal en un enlace a `enlaces/index.html`.
 2. **Enlaces → Portada:** añade en Enlaces un enlace Inicio que regrese al documento principal.
@@ -86,7 +84,6 @@ Puedes copiar la lista, pero **adapta las rutas a la ubicación de cada document
 
 **Pistas:** `./` parte de la carpeta actual; `../` sube un nivel. Después puedes indicar otra carpeta y archivo. Una URL completa como `https://www.google.com/` lleva a un sitio externo.
 
-Usa rutas relativas. Evita empezar por `/`: apunta a la raíz del servidor de Live Server, que puede no coincidir con esta carpeta.
 
 **Resultado esperado:** puedes recorrer las cinco páginas sin usar el botón Atrás ni encontrar archivos inexistentes.
 
@@ -124,7 +121,6 @@ En `contacto/index.html` encontrarás un formulario sencillo con solo tres campo
 
 Cada campo tiene su `label`, `id` y `name`. El botón **Enviar** permite comprobar los campos obligatorios y el formato del email. Es una práctica de HTML: todavía no hay un servicio que reciba o envíe los mensajes.
 
-Completa la lista de navegación de Contacto para volver a Inicio o visitar Enlaces, Imágenes y Multimedia. Usa `../` para salir de la carpeta Contacto.
 
 **Resultado esperado:** formulario con los tres campos y el botón Enviar, sin CSS ni campos adicionales.
 
